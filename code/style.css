@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+/* common class start */
+.container {
+    width: 78.5%;
+    margin: 0 auto;
+    /* background-color: bisque; */
+}
+
+.headings {
+    color: #1F1F1F;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.card {
+    width: 380px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 45px;
+    background-color: #FF136F;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card h4 {
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+}
+
+.item-card-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.item-card *{
+    margin-bottom: 22px;
+}
+
+.item-card {
+    text-align: center;
+    padding: 16px 24px;
+    min-height: 500px;
+    max-width: 380px;
+    border: 2px solid #929292;
+    box-shadow: 0 6px 20px 1px #92929220;
+    border-radius: 25px;
+}
+
+.item-card h3 {
+    font-size: 24px;
+    color: #1F1F1F;
+}
+
+.item-card p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E4E4E;
+}
+
+.item-card h4 {
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.item-btn {
+    padding: 14px 24px;
+    font-size: 18px;
+    color: white;
+    margin: 10px auto;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* common class end */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 30px 0;
+    align-items: center;
+}
+
+.hamburger-menu-icon {
+    cursor: pointer;
+}
+
+.hero-container {
+    display: flex;
+    padding: 60px 45px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 #00000025;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.hero-container * {
+    margin-bottom: 20px;
+}
+
+.hero-container h1 {
+    font-size: 56px;
+    color: #1F1F1F;
+    font-weight: bold;
+}
+
+.hero-container p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E4E4E;
+}
+
+.hero-container h3 {
+    color: #FF136F;
+    font-size: 41px;
+    font-weight: 500;
+}
+
+.hero-btn {
+    padding: 16px 50px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+.category-container {
+    margin-bottom: 50px;
+}
+
+.category-card-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.watch-card {
+    background-image: linear-gradient(to right, #f09e46, #FF9C35);
+}
+
+.bag-card {
+    background-image: linear-gradient(to right, #f22f7a, #FF136F);
+}
+
+.shoes-card {
+    background-image: linear-gradient(to right, #572aed, #3F07F8);
+}
+
+.backpack-card-box {
+    margin-bottom: 100px;
+}
+
+.subscription-container {
+    background-color: #FFF2F1;
+    padding: 146px 246px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.subscription-container h3 {
+    font-size: 32px;
+    color: #1F1F1F;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.subscription-container p{
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+.text-btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 0;
+    justify-content: center;
+}
+
+.text-btn input{
+    color: #CCCCCC;
+    font-size: 24px;
+    padding: 14px 24px 14px 30px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.send-btn {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 14px 24px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+    text-align: center;
+    cursor: pointer;
+}
